@@ -1,0 +1,10 @@
+.purpose, .projects, .about
+{
+    min-height: 100vh;
+    padding-top: 3.125rem;
+}
+
+.--content-container
+{
+    padding: 1rem 0;
+}

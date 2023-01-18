@@ -1,0 +1,27 @@
+:root 
+{
+    --sz-desktop-side-margins: 10vw;
+    --sz-mobile-side-margins: 5vw;
+}
+
+main, footer
+{
+    padding-left: var(--sz-mobile-side-margins);
+    padding-right: var(--sz-mobile-side-margins);
+}
+
+footer
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+@media screen and (min-width: 800px) 
+{
+    main, footer 
+    {
+        padding-left: var(--sz-desktop-side-margins);
+        padding-right: var(--sz-desktop-side-margins);
+    }
+
+}
