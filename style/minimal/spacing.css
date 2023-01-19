@@ -4,6 +4,11 @@
     --sz-mobile-side-margins: 5vw;
 }
 
+main
+{
+    padding-top: 3.125rem;
+}
+
 main, footer
 {
     padding-left: var(--sz-mobile-side-margins);
