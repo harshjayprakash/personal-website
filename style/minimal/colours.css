@@ -25,9 +25,10 @@
     --clr-teal-900: #134e4a;
 }
 
-@media (prefers-color-scheme: light) {
-
-    :root {
+@media (prefers-color-scheme: light) 
+{
+    :root 
+    {
         --clr-background: var(--clr-slate-100);
         --clr-foreground: var(--clr-slate-900);
         --clr-object-background: var(--clr-slate-200);
@@ -49,6 +50,17 @@
         --clr-object-foreground: var(--clr-slate-100);
         --clr-accent: var(--clr-teal-400);
     }
+
+    ::selection
+    {
+        background-color: var(--clr-teal-600);
+    }
+}
+
+::selection
+{
+    background-color: var(--clr-teal-500);
+    color: var(--clr-foreground);
 }
 
 body 
