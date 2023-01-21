@@ -1,0 +1,18 @@
+.cards {
+    display: grid;
+    gap: 1vw 1vh;
+}
+
+.card {
+    border: 2px solid var(--clr-foreground);
+    background-color: inherit;
+    padding: 2vw 2vh;
+}
+
+.card:hover {
+    border-color: var(--clr-accent);
+}
+
+.dev-lang-card__title, .project-card__title {
+    font-weight: 500;
+}
