@@ -3,17 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Harsh. - A student</title>
     <link rel="stylesheet" href="./style/minimal/base.css">
     <link rel="stylesheet" href="./style/minimal/font.css">
     <link rel="stylesheet" href="./style/minimal/colours.css">
+    <link rel="stylesheet" href="./style/minimal/spacing.css">
+    <link rel="stylesheet" href="./style/bem/header.css">
+    <link rel="stylesheet" href="./style/bem/cards.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
+        <span class="site-header__logo">Harsh.</span>
+        <nav class="site-header__page-nav"> Home</nav>
     </header>
     <main>
-    </main>
-    <footer>
+        <br/>
+        <section class="intro">
+            <p class="intro-who">Hello, there! I'm Harsh Jayprakash - currently a university student.</p>
+            <br/>
+            <p>An enthusiastic and capable student currently on Year 2 of BSc (Hons) Computer Science, a degree focused on digital technologies, understanding the software development, security and hardware. I have further developed my knowledge on these topics throughout my degree, increasing my understanding of how computers work. However, technology is evolving constantly, and I am eager to always continue learning more about it.</p>
+            <br/>
+        </section>
+        <section class="dev-skills">
+            <h1>Skills</h1>
+            <p>Below shows some of the development skills I have.</p><br/>
+            <div class="cards">
+                <article class="card dev-lang-card">
+                    <span class="dev-lang-card__title">Web Development</span><br/>
+                    <span class="dev-lang-card__lang">HTML &#8226;</span>
+                    <span class="dev-lang-card__lang">CSS</span>
+                </article>
+                <article class="card dev-lang-card">
+                    <span class="dev-lang-card__title">Desktop Development</span><br/>
+                    <span class="dev-lang-card__lang">Python &#8226;</span>
+                    <span class="dev-lang-card__lang">Visual Basic .NET &#8226;</span>
+                    <span class="dev-lang-card__lang">C &#8226;</span>
+                    <span class="dev-lang-card__lang">Java* &#8226;</span>
+                    <span class="dev-lang-card__lang">Rust**</span>
+                </article>
+            </div>
+            <small>* Currenly learning Java at university.</small><br/>
+            <small>** Trying to learn Rust in my own time.</small>
+        </section>
+        <br/><br/>
+        <section class="projects">
+            <h1>Projects</h1>
+            <p>Below shows the projects I have undertaken both during education and within my own time.</p><br/>
+            <div class="cards">
+                <article class="card project-card">
+                    <small class="project-card__lang">HTML & CSS</small><br/>
+                    <span class="project-card__title">Personal Website</span><br/>
+                    <p class="project-card__descr">Making my own website from scratch without the limitations of website builders, or any frameworks.</p>
+                </article>
+                <article class="card project-card">
+                    <small class="project-card__lang">C</small><br/>
+                    <span class="project-card__title">The Blok Experiment</span><br/>
+                    <p class="project-card__descr">TODO: Descr</p>
+                </article>
+                <article class="card project-card">
+                    <small class="project-card__lang">Python</small><br/>
+                    <span class="project-card__title">Wrapping Paper Quotes Calculator</span><br/>
+                    <p class="project-card__descr">TODO: Descr</p>
+                </article>
+            </div>
+        </section>
+    </main><br/>
+    <footer class="site-footer">
+        <p class="site-footer__date">2023. Harsh Jayprakash.</p>
     </footer>
 </body>
 </html>
