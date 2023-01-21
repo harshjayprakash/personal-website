@@ -31,7 +31,6 @@
         --clr-foreground: var(--clr-slate-900);
         --clr-accent: var(--clr-teal-500);
     }
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,7 +39,6 @@
         --clr-foreground: var(--clr-slate-100);
         --clr-accent: var(--clr-teal-400);
     }
-
 }
 
 body {
