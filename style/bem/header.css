@@ -1,0 +1,16 @@
+.site-header {
+    display: flex;
+}
+
+.site-header__logo {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.site-header__page-nav {
+    font-size: 1.25rem;
+
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
