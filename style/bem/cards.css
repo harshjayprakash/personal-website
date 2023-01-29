@@ -4,13 +4,16 @@
 }
 
 .card {
-    border: 2px solid var(--clr-foreground);
-    background-color: inherit;
+    border: 2px solid var(--card-background);
+    background-color: var(--card-background);
     padding: 2vw 2vh;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border-radius: 0.25rem;
 }
 
 .card:hover {
-    border-color: var(--clr-accent);
+    border: 2px solid var(--card-background-hover);
+    background-color: var(--card-background-hover);
 }
 
 .dev-lang-card__title, .project-card__title {
