@@ -26,6 +26,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
     :root {
         --clr-background: var(--clr-zinc-100);
         --clr-foreground: var(--clr-zinc-900);
@@ -34,9 +35,16 @@
         --card-background: var(--clr-zinc-50);
         --card-background-hover: var(--clr-zinc-200);
     }
+
+    ::selection {
+        background-color: var(--clr-zinc-500);
+        color: var(--clr-zinc-50);
+    }
+
 }
 
 @media (prefers-color-scheme: dark) {
+
     :root {
         --clr-background: var(--clr-zinc-900);
         --clr-foreground: var(--clr-zinc-100);
@@ -45,6 +53,12 @@
         --card-background: var(--clr-zinc-800);
         --card-background-hover: var(--clr-zinc-700);
     }
+
+    ::selection {
+        background-color: var(--clr-zinc-500);
+        color: var(--clr-zinc-50);
+    }
+
 }
 
 body {
