@@ -1,16 +1,19 @@
 .site-header {
+    background-color: var(--hdr-background);
+    color: var(--hdr-foreground);
+    padding: 1vh 5vw;
     display: flex;
 }
 
 .site-header__logo {
-    font-size: 1.75rem;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 500;
+    
 }
 
 .site-header__page-nav {
     font-size: 1.25rem;
-
-    margin-left: auto;
+    margin-left: 2rem;
     margin-top: auto;
     margin-bottom: auto;
 }
