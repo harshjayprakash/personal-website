@@ -13,9 +13,18 @@
     color: var(--clr-foreground);
 }
 
+.card__image {
+    border-radius: 0.25rem;
+}
+
 .card:hover {
     border: 2px solid var(--card-background-hover);
     background-color: var(--card-background-hover);
+}
+
+.card__no-hover:hover {
+    background-color: var(--card-background);
+    border: 2px solid var(--card-background);
 }
 
 .dev-lang-card__title, .project-card__title {
