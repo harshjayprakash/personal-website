@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./style/bem/header.css">
     <link rel="stylesheet" href="./style/bem/cards.css">
     <link rel="stylesheet" href="./style/bem/links.css">
+    <link rel="stylesheet" href="./style/bem/utility.css">
+    <link rel="stylesheet" href="./style/bem/collapsable.css">
 </head>
 <body>
     <header class="site-header">
@@ -19,11 +21,36 @@
     </header>
     <main>
         <br><br><br>
-        <a class="link" href="index.html">&lt; Home</a><br/>
-        <h2>The Blok Experiement</h2>
-        <small>C</small>
-        <br/><br/>
-        <p>TODO</p>
+        <section class="project-info">
+            <a class="link" href="index.html">&lt; Home</a><br/>
+            <h2>The Blok Experiement</h2>
+            <small>Languages: C <br/> Tools: Visual Studio Code &#8226; GCC
+                <br/> Frameworks/APIs: WIN32 API
+            </small>
+        </section><br/>
+        <section class="card card__no-hover project-descr">
+            <h3>A brief description</h3>
+            <p>A project to explore how native Windows applications are created using the WIN32 API.</p>
+            <br/><img class="card__image" src="./assets/blok_mwnd.png"/><br/>
+            <p>
+                When launching the application, a black painted window is created with a pink block at the top left corner.
+                Towards the bottom left, there is text showing the X and Y coordinates of the pink square; in addition to whether the block is in a marked location.
+                <br/><br/>
+                The pink block's location can be changed or manipulated through the use of arrow keys from the keyboard, also updating the coordinates at the bottom.
+                <br/><br/>
+                The mouse pointer can be used to mark points on the grid; this is indicated by a white block. It can be unmarked by clicking in the same area.
+            </p>
+        </section>
+        <br><br>
+        <section class="project-docs">
+            <details class="card card__no-hover">
+                <summary>
+                    <h3 class="collapsable__title">Code documentation</h3>
+                </summary><br/>
+                The application uses structures to organise the code into modular components. These involve:
+                <code>Application</code>, <code>Block</code>, <code>Grid</code>, <code>Window</code>
+            </details>
+        </section>
     </main><br/>
     <footer class="site-footer">
         <p class="site-footer__date">2023. Harsh Jayprakash.</p>
