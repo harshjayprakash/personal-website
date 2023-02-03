@@ -30,8 +30,10 @@
     :root {
         --clr-background: var(--clr-zinc-100);
         --clr-foreground: var(--clr-zinc-900);
+        --clr-accent: var(--clr-teal-600);
 
-        --hdr-background: #71717a20;
+        --hdr-background: #71717a30;
+        --hdr-background: #ffffff30;
         --card-background: var(--clr-zinc-50);
         --card-background-hover: var(--clr-zinc-200);
     }
@@ -46,12 +48,14 @@
 @media (prefers-color-scheme: dark) {
 
     :root {
-        --clr-background: var(--clr-zinc-900);
+        --clr-background: var(--clr-zinc-800);
         --clr-foreground: var(--clr-zinc-100);
+        --clr-accent: var(--clr-teal-400);
 
-        --hdr-background: #27272a20;
-        --card-background: var(--clr-zinc-800);
-        --card-background-hover: var(--clr-zinc-700);
+        --hdr-background: #27272a30;
+        --hdr-background: #00000030;
+        --card-background: var(--clr-zinc-700);
+        --card-background-hover: var(--clr-zinc-600);
     }
 
     ::selection {
