@@ -11,18 +11,21 @@
 }
 
 .site-header__logo {
-    font-size: 1.125rem;
+    font-size: 1.025rem;
     font-weight: 500;
     margin: auto;
 }
 
 .site-header__page-nav {
-    font-size: 1.125rem;
+    position: absolute;
+    font-size: 1.025rem;
     margin-left: 2rem;
     margin-top: auto;
     margin-bottom: auto;
     display: none;
 }
+
+
 
 @media screen and (min-width: 800px) {
 
@@ -31,7 +34,29 @@
     }
 
     .site-header__page-nav {
+        all: unset;
+        position: relative;
         display: unset;
+        margin-left: 2rem;
+    }
+
+    .site-header__nav-link {
+        text-decoration: none;
+        color: var(--hdr-foreground);
+        transition: color 250ms ease-in-out;
+        margin-right: 3vw;
+    }
+
+    .site-header__nav-link:hover {
+        color: var(--clr-accent);
+    }
+
+    .site-header__active-page {
+        border-bottom: 2px solid var(--clr-accent);
+    }
+
+    .site-header__nav-button {
+        display: none;
     }
 
 }
