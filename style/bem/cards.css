@@ -26,11 +26,12 @@
 
 .card__no-hover {
     box-shadow: none;
+    border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 .card__no-hover:hover {
     background-color: var(--card-background);
-    border: 2px solid var(--card-background);
+    border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 .dev-lang-card__title, .project-card__title {
