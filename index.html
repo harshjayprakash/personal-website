@@ -10,57 +10,23 @@
     <link rel="stylesheet" href="./style/minimal/spacing.css">
     <link rel="stylesheet" href="./style/bem/header.css">
     <link rel="stylesheet" href="./style/bem/cards.css">
+    <link rel="stylesheet" href="./style/bem/intro.css">
+    <link rel="stylesheet" href="./style/bem/utility.css">
 </head>
-<body>
-    <header class="site-header">
-        <span class="site-header__logo">Harsh.</span>
-        <nav class="site-header__page-nav"> Home</nav>
-    </header>
+<header class="site-header">
+    <span class="site-header__logo">Harsh<span class="text-accent">.</span></span>
+    <nav class="site-header__page-nav">
+        <a class="site-header__nav-link" href="index.html">Home</a>
+        <a class="site-header__nav-link" href="projects.html">Projects</a>
+        <a class="site-header__nav-link" href="about.html">About</a></nav>
+</header>
     <main>
         <br/><br/><br/>
         <section class="intro">
-            <p class="intro-who">Hello, there! I'm Harsh Jayprakash - currently a university student.</p>
-            <br/>
-            <p>An enthusiastic and capable student currently on Year 2 of BSc (Hons) Computer Science, a degree focused on digital technologies, understanding the software development, security and hardware. I have further developed my knowledge on these topics throughout my degree, increasing my understanding of how computers work. However, technology is evolving constantly, and I am eager to always continue learning more about it.</p>
-            <br/>
-        </section>
-        <section class="dev-skills">
-            <h1>Skills</h1>
-            <p>Below shows some of the development skills I have.</p><br/>
-            <div class="cards">
-                <article class="card card__no-hover dev-lang-card">
-                    <span class="dev-lang-card__title">Web Development</span><br/>
-                    <span class="dev-lang-card__lang">HTML &#8226; CSS</span>
-                </article>
-                <article class="card card__no-hover dev-lang-card">
-                    <span class="dev-lang-card__title">Desktop Development</span><br/>
-                    <span class="dev-lang-card__lang">Python &#8226; Visual Basic .NET &#8226; C &#8226; Java*</span>
-                </article>
+            <div class="intro__container">
+                <h1 class="intro__greeting">Hello, there!</h1>
+                <p class="intro__who">Harsh Jayprakash - A university student.</p>
             </div>
-            <small>* Currently learning Java</small><br/>
-        </section>
-        <br/><br/>
-        <section class="projects">
-            <h1>Projects</h1>
-            <p>Below shows the projects I have undertaken both during education and within my own time.</p><br/>
-            <div class="cards">
-                <a class="card project-card" href="project_website.html">
-                    <small class="project-card__lang">HTML & CSS</small><br/>
-                    <span class="project-card__title">Personal Website</span><br/>
-                    <p class="project-card__descr">Making my own website from scratch without the limitations of website builders, or any frameworks.</p>
-                </a>
-                <a class="card project-card" href="project_blok.html">
-                    <small class="project-card__lang">C</small><br/>
-                    <span class="project-card__title">The Blok Experiment</span><br/>
-                    <p class="project-card__descr">An Experiement to learn how native Windows applications are created with the WIN32 API.</p>
-                </a>
-                <a class="card project-card" href="project_wpqc.html">
-                    <small class="project-card__lang">Python</small><br/>
-                    <span class="project-card__title">Wrapping Paper Quotes Calculator</span><br/>
-                    <p class="project-card__descr">A small project to demonstrate a 'proof of concept' for a small business to improve efficiency.</p>
-                </a>
-            </div>
-        </section>
     </main><br/>
     <footer class="site-footer">
         <p class="site-footer__date">2023. Harsh Jayprakash.</p>
