@@ -24,6 +24,10 @@
     background-color: var(--card-background-hover);
 }
 
+.card__no-hover {
+    box-shadow: none;
+}
+
 .card__no-hover:hover {
     background-color: var(--card-background);
     border: 2px solid var(--card-background);
@@ -31,4 +35,22 @@
 
 .dev-lang-card__title, .project-card__title {
     font-weight: 500;
+}
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 769px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+}
+
+@media screen and (min-width: 1201px) {
+
 }
