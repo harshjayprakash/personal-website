@@ -31,7 +31,7 @@
         --clr-background: var(--clr-zinc-100);
         --clr-foreground: var(--clr-zinc-900);
 
-        --hdr-background: var(--clr-zinc-200);
+        --hdr-background: #71717a20;
         --card-background: var(--clr-zinc-50);
         --card-background-hover: var(--clr-zinc-200);
     }
@@ -49,7 +49,7 @@
         --clr-background: var(--clr-zinc-900);
         --clr-foreground: var(--clr-zinc-100);
 
-        --hdr-background: var(--clr-zinc-800);
+        --hdr-background: #27272a20;
         --card-background: var(--clr-zinc-800);
         --card-background-hover: var(--clr-zinc-700);
     }
