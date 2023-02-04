@@ -34,6 +34,7 @@
 
         --hdr-background: #71717a30;
         --hdr-background: #ffffff30;
+        --hdr-nav-background: var(--clr-zinc-200);
         --card-background: var(--clr-zinc-50);
         --card-background-hover: var(--clr-zinc-200);
     }
@@ -54,6 +55,7 @@
 
         --hdr-background: #27272a30;
         --hdr-background: #00000030;
+        --hdr-nav-background: var(--clr-zinc-600);
         --card-background: var(--clr-zinc-700);
         --card-background-hover: var(--clr-zinc-600);
     }
