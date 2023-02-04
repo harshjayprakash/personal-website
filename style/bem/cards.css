@@ -11,6 +11,8 @@
     border-radius: 0.25rem;
     text-decoration: none;
     color: var(--clr-foreground);
+    transition: border 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out;
 }
 
 .card__image {
