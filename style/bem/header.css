@@ -63,7 +63,10 @@
     .site-header__nav-toggle:checked ~ .site-header__page-nav {
         all: unset;
         display: unset;
-        margin-left: 2rem;
+    }
+
+    .site-header__nav-link {
+        margin: 0 0 0 3vw;
     }
 
     .site-header__active-page {
