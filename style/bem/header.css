@@ -52,6 +52,43 @@
     width: calc(100% - 2vh);
 }
 
+.site-header__nav-label-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.site-header__nav-label,
+.site-header__nav-label::before, 
+.site-header__nav-label::after {
+    display: block;
+    background-color: var(--clr-foreground);
+    width: 0.75rem;
+    height: 2px;
+    border-radius: 2px;
+    position: relative;
+    left: 2px;
+}
+
+.site-header__nav-label::before,
+.site-header__nav-label::after {
+    content: '';
+    position: absolute;
+}
+
+.site-header__nav-label::before {
+    bottom: 7px;
+    left: -3px;
+}
+
+.site-header__nav-label::after {
+    top: 7px;
+    left: -3px;
+}
 
 @media screen and (min-width: 800px) {
 
