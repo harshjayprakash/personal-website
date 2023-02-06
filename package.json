@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/harshjayprakash/personal-website/issues"
   },
-  "homepage": "https://github.com/harshjayprakash/personal-website#readme"
+  "homepage": "https://github.com/harshjayprakash/personal-website#readme",
+  "dependencies": {
+    "@types/node": "^18.11.19",
+    "@types/react": "^18.0.27",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  }
 }
