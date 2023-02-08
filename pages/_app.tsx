@@ -1,4 +1,5 @@
 import "./../style/base.css";
+import "./../assets/fonts/fonts.css";
 import "./../style/colours.css";
 
 import Header from "./../components/header";
