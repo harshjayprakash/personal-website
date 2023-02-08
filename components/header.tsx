@@ -7,10 +7,10 @@ export default function Header(): JSX.Element {
                 <a className="header__nav-link">Home</a>
                 <a className="header__nav-link">Projects</a>
                 <a className="header__nav-link">About</a>
-                <label htmlFor="header__nav-toggle" className="header__nav-label">
-                    <span className="header__nav-label__design">X</span>
-                </label>
             </nav>
+            <label htmlFor="header__nav-toggle" className="header__nav-label">
+                <span className="header__nav-label__design">X</span>
+            </label>
         </header>
     );
 }
