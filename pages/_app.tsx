@@ -9,6 +9,7 @@ export default function App(): JSX.Element {
         <>
         <Header />
         <h1>Application</h1>
+        <Footer />
         </>
     );
 }
