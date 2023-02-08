@@ -238,20 +238,6 @@
     src: url('./jetbrains-mono/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
 }
 
-@font-face {
-    font-family: 'JetBrains Mono';
-    font-weight: 900;
-    font-style: normal;
-    src: url('./jetbrains-mono/JetBrainsMono-Black.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'JetBrains Mono';
-    font-weight: 900;
-    font-style: italic;
-    src: url('./jetbrains-mono/JetBrainsMono-BlackItalic.woff2') format('woff2');
-}
-
 body { 
     font-family: 'Inter', sans-serif;
 }
