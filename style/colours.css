@@ -1,0 +1,31 @@
+:root {
+    --clr-zinc-50: #fafafa;
+    --clr-zinc-100: #f4f4f5;
+    --clr-zinc-200: #e4e4e7;
+    --clr-zinc-300: #d4d4d8;
+    --clr-zinc-400: #a1a1aa;
+    --clr-zinc-500: #71717a;
+    --clr-zinc-600: #52525b;
+    --clr-zinc-700: #3f3f46;
+    --clr-zinc-800: #27272a;
+    --clr-zinc-900: #18181b;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --clr-background: var(--clr-zinc-100);
+        --clr-foreground: var(--clr-zinc-900);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-background: var(--clr-zinc-900);
+        --clr-foreground: var(--clr-zinc-100);
+    }
+}
+
+body {
+    background-color: var(--clr-background);
+    color: var(--clr-foreground);
+}
