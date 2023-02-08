@@ -15,6 +15,9 @@
     :root {
         --clr-background: var(--clr-zinc-100);
         --clr-foreground: var(--clr-zinc-900);
+
+        --hdr-background: rgba(255, 255, 255, 0.1);
+        --hdr-nav-background: var(--clr-zinc-200);
     }
 }
 
@@ -22,6 +25,9 @@
     :root {
         --clr-background: var(--clr-zinc-900);
         --clr-foreground: var(--clr-zinc-100);
+
+        --hdr-background: rgba(255, 255, 255, 0.1);
+        --hdr-nav-background: var(--clr-zinc-800);
     }
 }
 
