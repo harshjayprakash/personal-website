@@ -9,7 +9,7 @@ export default function Header(): JSX.Element {
                 <a className="header__nav-link">About</a>
             </nav>
             <label htmlFor="header__nav-toggle" className="header__nav-label">
-                <span className="header__nav-label__design">X</span>
+                <span className="header__nav-label__design"></span>
             </label>
         </header>
     );
