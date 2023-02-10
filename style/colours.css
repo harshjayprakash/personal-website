@@ -27,7 +27,7 @@
         --clr-foreground: var(--clr-zinc-900);
         --clr-accent: var(--clr-teal-600);
 
-        --hdr-background: rgba(255, 255, 255, 0.1);
+        --hdr-background: rgba(0, 0, 0, 0.025);
         --hdr-nav-background: var(--clr-zinc-200);
     }
 }
