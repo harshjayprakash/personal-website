@@ -29,6 +29,7 @@
     text-decoration: none;
     color: var(--clr-foreground);
     margin: 1vh 3vw;
+    transition: color 250ms ease-in-out;
 }
 
 .header__nav-link:hover {
