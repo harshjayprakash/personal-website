@@ -7,7 +7,7 @@ export default function Header(): JSX.Element {
     var navLinks: Array<JSX.Element> = new Array<JSX.Element>();
     for (let i = 0; i < paths.length; i++) {
         navLinks.push(
-            <a className="header__nav-link" href={paths[i].path}>{paths[i].name}</a>
+            <a className={"header__nav-link" + ((router.pathname == paths[i].path) ? " header__nav-link-active" : "" )} href={paths[i].path}>{paths[i].name}</a>
         );
     }
 
