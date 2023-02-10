@@ -11,7 +11,7 @@ export default function App({Component, pageProps}): JSX.Element {
         <>
         <Header />
         <br/><br/><br/>
-        <main>
+        <main className="content">
         <Component {...pageProps} />
         </main>
         <Footer />
