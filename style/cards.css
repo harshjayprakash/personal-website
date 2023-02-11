@@ -14,6 +14,10 @@
     display: block;
 }
 
+.card__title {
+    font-weight: 500;
+}
+
 .card__link {
     text-decoration: none;
     color: var(--clr-accent);
