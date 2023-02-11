@@ -2,7 +2,7 @@ export const programmingProjects = [
     {
         name: "Personal Website",
         languages: "Typescript • CSS",
-        tools: "Visual Studio Code",
+        tools: "Visual Studio Code • Node.JS [npm]",
         frameworks: "Next.JS",
         platform: "Web-based • Any that supports a modern web browser",
         description: "A personal website to showcase any projects created using the Next.JS framework.",
