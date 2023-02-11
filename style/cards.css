@@ -20,6 +20,7 @@
 
 .card__description {
     color: var(--card-foreground-subtle);
+    font-size: 0.9rem;
 }
 
 .card__link {
