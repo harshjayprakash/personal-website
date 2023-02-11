@@ -18,6 +18,10 @@
     font-weight: 500;
 }
 
+.card__description {
+    color: var(--card-foreground-subtle);
+}
+
 .card__link {
     text-decoration: none;
     color: var(--clr-accent);
