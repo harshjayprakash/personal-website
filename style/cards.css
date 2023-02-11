@@ -17,6 +17,7 @@
 .card__link {
     text-decoration: none;
     color: var(--clr-accent);
+    font-weight: 500;
 }
 
 .card:hover {
