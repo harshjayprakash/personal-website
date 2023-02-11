@@ -14,7 +14,7 @@ export const programmingProjects = [
         tools: "Visual Studio Code • GCC",
         frameworks: "WIN32 API",
         platform: "Desktop • Windows NT Only",
-        description: "An experimeent to learn how native Windows applications are created with the WIN32 API.",
+        description: "An experiment to learn how native Windows applications are created with the WIN32 API.",
         link: "/project/blok-experiment",
     },
     {
