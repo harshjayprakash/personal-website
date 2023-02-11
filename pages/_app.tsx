@@ -15,7 +15,7 @@ export default function App({Component, pageProps}): JSX.Element {
     return (
         <>
         <Head>
-            <title></title>
+            <title>Harsh.</title>
         </Head>
         <Header />
         <br/><br/><br/>
