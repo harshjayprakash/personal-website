@@ -45,6 +45,7 @@
         --hdr-nav-background: var(--clr-zinc-800);
         
         --card-background: var(--clr-zinc-800);
+        --card-foreground-subtle: var(--clr-zinc-300);
     }
 }
 
