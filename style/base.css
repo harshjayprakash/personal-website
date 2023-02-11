@@ -1,5 +1,7 @@
 *, *::after, *::before {
     box-sizing: border-box;
+    transition: background-color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
 }
 
 body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
