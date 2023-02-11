@@ -9,21 +9,21 @@ import "./../style/links.css";
 import Header from "./../components/header";
 import Footer from "./../components/footer";
 
+import Head from "next/head";
+
 export default function App({Component, pageProps}): JSX.Element {
     return (
         <>
-        <head>
-            <title>Harsh.</title>
-        </head>
-        <body>
-            <Header />
-            <br/><br/><br/>
-            <main className="content">
-            <Component {...pageProps} />
-            </main>
-            <br/><br/>
-            <Footer />
-        </body>
+        <Head>
+            <title></title>
+        </Head>
+        <Header />
+        <br/><br/><br/>
+        <main className="content">
+        <Component {...pageProps} />
+        </main>
+        <br/><br/>
+        <Footer />
         </>
     );
 }
