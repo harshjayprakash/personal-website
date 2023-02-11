@@ -1,5 +1,10 @@
+import ProjectHeader from "../../components/project-header";
+import { programmingProjects } from "../../data/projects";
+
 export default function WrappingPaperQuotesCalculator(): JSX.Element {
     return (
-        <h1>Wrapping Paper Quotes Calculator</h1>
+        <>
+        <ProjectHeader {...programmingProjects[2]} />
+        </>
     );
 }

@@ -1,5 +1,10 @@
+import ProjectHeader from "../../components/project-header";
+import { programmingProjects } from "../../data/projects";
+
 export default function BlokExperiment(): JSX.Element {
     return (
-        <h1>The Blok Experiment</h1>
+        <>
+        <ProjectHeader {...programmingProjects[1]} />
+        </>
     );
 }
