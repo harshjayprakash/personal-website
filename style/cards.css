@@ -27,6 +27,7 @@
     text-decoration: none;
     color: var(--clr-accent);
     font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .card:hover {
