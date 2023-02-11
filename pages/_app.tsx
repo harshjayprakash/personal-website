@@ -16,6 +16,7 @@ export default function App({Component, pageProps}): JSX.Element {
         <>
         <Head>
             <title>Harsh.</title>
+            <link rel="icon" type="image/png" href="/favicon-192.png" />
         </Head>
         <Header />
         <br/><br/><br/>
