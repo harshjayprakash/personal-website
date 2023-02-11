@@ -12,13 +12,18 @@ import Footer from "./../components/footer";
 export default function App({Component, pageProps}): JSX.Element {
     return (
         <>
-        <Header />
-        <br/><br/><br/>
-        <main className="content">
-        <Component {...pageProps} />
-        </main>
-        <br/><br/>
-        <Footer />
+        <head>
+            <title>Harsh.</title>
+        </head>
+        <body>
+            <Header />
+            <br/><br/><br/>
+            <main className="content">
+            <Component {...pageProps} />
+            </main>
+            <br/><br/>
+            <Footer />
+        </body>
         </>
     );
 }
