@@ -17,11 +17,13 @@
 
 .card__title {
     font-weight: 500;
+    display: block;
 }
 
 .card__description {
     color: var(--card-foreground-subtle);
     font-size: 0.9rem;
+    padding: 0.25rem 0 0.25rem 0;
 }
 
 .card__link {
