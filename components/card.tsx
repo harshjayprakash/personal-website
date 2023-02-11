@@ -1,10 +1,10 @@
 export default function Card({ name, languages, description, link }): JSX.Element {
     return (
-        <article className="card">
+        <a className="card" href={link}>
             <small className="card__languages">{languages}</small>
             <span className="card__title">{name}</span>
             <p className="card__description">{description}</p>
-            <a className="card__link" href={link}>View Details &gt;</a>
-        </article>
+            <a className="card__link">View Details &gt;</a>
+        </a>
     );
 }
